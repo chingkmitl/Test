@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { searchEquipment } from './services/data';
 import { SearchResult } from './types';
 import { SearchIcon, InfoIcon, CategoryIcon, NumberIcon, PriceIcon } from './components/icons';
